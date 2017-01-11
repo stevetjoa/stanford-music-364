@@ -40,7 +40,7 @@ Date: 2017 January 27, 12:30-2:20 pm
 
 Git is *not* required for this lecture and assignment. However, those who *do* know Git may find it convenient to clone this repository onto their computers.
 
-### IPython, IPython Notebook, scikit-learn, pandas
+### IPython, scikit-learn, pandas
 
 Install Python 2 and relevant libraries. Your system may already have Python 2.
 
@@ -61,11 +61,14 @@ Immediately after installing, if something doesn’t work, try closing the termi
 
 Librosa is a Python library for audio and music analysis.
 
-1.  [Install Librosa.](http://librosa.github.io/librosa/install.html) In short:
+1.  [Install Librosa.](https://github.com/librosa/librosa#installation) In short:
 
         pip install librosa
 
-    Mac users will enter this command in the Terminal; Windows users will enter this command from the Anaconda Prompt.
+    Mac users will enter this command in the Terminal; Windows users will enter this command from the Anaconda Prompt. If that doesn't work, try:
+
+        conda install -c conda-forge librosa
+
 2.  Follow the [tutorial quickstart](http://librosa.github.io/librosa/tutorial.html#quickstart). If you can execute these lines in particular:
 
         import librosa

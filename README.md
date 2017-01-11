@@ -59,8 +59,12 @@ Immediately after installing, if something doesn’t work, try closing the termi
 
 Librosa is a Python library for audio and music analysis.
 
-1.  [Install Librosa.](http://librosa.github.io/librosa/install.html)
-2.  Follow the [tutorial quickstart](http://librosa.github.io/librosa/tutorial.html). If you can execute these lines in particular:
+1.  [Install Librosa.](http://librosa.github.io/librosa/install.html) In short:
+
+    pip install librosa
+
+    Mac users will enter this command in the Terminal; Windows users will enter this command from the Anaconda Prompt.
+2.  Follow the [tutorial quickstart](http://librosa.github.io/librosa/tutorial.html#quickstart). If you can execute these lines in particular:
 
         import librosa
         filename = librosa.util.example_audio_file()

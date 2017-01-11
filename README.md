@@ -42,7 +42,9 @@ Git is *not* required for this lecture and assignment. However, those who *do* k
 
 ### IPython, IPython Notebook, scikit-learn, pandas
 
-Install Python 2 and relevant libraries. Your system may already have Python 2. If you’re totally new, the simplest solution is to download and install [Anaconda for Python 2 (2.7)](https://www.continuum.io/downloads). If you can do the following without errors, then you’re set:
+Install Python 2 and relevant libraries. Your system may already have Python 2.
+
+If you’re totally new, the simplest solution is to download and install [Anaconda for Python 2 (2.7)](https://www.continuum.io/downloads), not Python 3. If you can do the following without errors, then you’re set:
 
 - Run the IPython shell. 
     -   For Mac, at the Terminal: `ipython`. 
@@ -61,7 +63,7 @@ Librosa is a Python library for audio and music analysis.
 
 1.  [Install Librosa.](http://librosa.github.io/librosa/install.html) In short:
 
-    pip install librosa
+        pip install librosa
 
     Mac users will enter this command in the Terminal; Windows users will enter this command from the Anaconda Prompt.
 2.  Follow the [tutorial quickstart](http://librosa.github.io/librosa/tutorial.html#quickstart). If you can execute these lines in particular:

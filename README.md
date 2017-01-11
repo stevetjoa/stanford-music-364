@@ -49,6 +49,7 @@ If you’re totally new, the simplest solution is to download and install [Anaco
 1.  Run the IPython shell. 
     -   For Mac, at the Terminal: `ipython`. 
     -   For Windows, open the application "IPython".
+
     Type `exit` to exit.
 2.  In the IPython shell, run `import scipy, sklearn, pandas`. If that runs without error, congratulations.
 3.  Run the IPython/Jupyter notebook. 

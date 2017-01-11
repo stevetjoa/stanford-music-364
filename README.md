@@ -43,14 +43,15 @@ Git is *not* required for this lecture and assignment. However, those who *do* k
 ### IPython, IPython Notebook, scikit-learn, pandas
 
 Install Python 2 and relevant libraries. Your system may already have Python 2. If you’re totally new, the simplest solution is to download and install [Anaconda for Python 2 (2.7)](https://www.continuum.io/downloads). If you can do the following without errors, then you’re set:
-    - Run the IPython shell. 
-        -   For Mac, at the Terminal: `ipython`. 
-        -   For Windows, open the application "IPython".
-        Type `exit` to exit.
-    - Run the IPython/Jupyter notebook. 
-        -   For Mac, at the Terminal: `jupyter notebook`.
-        -   For Windows, open the application "Jupyter Notebook". Alternatively for Windows: open the application "Anaconda Prompt" and type in `jupyter notebook`.
-    - In the IPython shell, run `import scipy, sklearn, pandas`. If that runs without error, congratulations, you are set.
+
+- Run the IPython shell. 
+    -   For Mac, at the Terminal: `ipython`. 
+    -   For Windows, open the application "IPython".
+    Type `exit` to exit.
+- Run the IPython/Jupyter notebook. 
+    -   For Mac, at the Terminal: `jupyter notebook`.
+    -   For Windows, open the application "Jupyter Notebook". Alternatively for Windows: open the application "Anaconda Prompt" and type in `jupyter notebook`.
+- In the IPython shell, run `import scipy, sklearn, pandas`. If that runs without error, congratulations, you are set.
 
 Immediately after installing, if something doesn’t work, try closing the terminal or restarting the OS. Sometimes that can reset the necessary configurations.
 
@@ -58,6 +59,16 @@ Immediately after installing, if something doesn’t work, try closing the termi
 
 Librosa is a Python library for audio and music analysis.
 
+1.  [Install Librosa.](http://librosa.github.io/librosa/install.html)
+2.  Follow the [tutorial quickstart](http://librosa.github.io/librosa/tutorial.html). If you can execute these lines in particular:
+
+        import librosa
+        filename = librosa.util.example_audio_file()
+        x, fs = librosa.load(filename)
+
+    then you are in good shape.
+
+More information:
 -   [Documentation](http://librosa.github.io/librosa/)
 -   [GitHub](https://github.com/librosa/librosa)
 -   [Tutorials](https://github.com/librosa/tutorial)

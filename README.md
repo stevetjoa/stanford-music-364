@@ -56,6 +56,7 @@ If you’re totally new, the simplest solution is to download and install [Anaco
     -   For Windows, open the application "Jupyter Notebook". Alternatively for Windows: open the application "Anaconda Prompt" and type in `jupyter notebook`.
     
     To close the IPython notebook,
+
     1.  Save the notebook. (Either use keyboard shortcut `s`, or "File | Save" in the menu.)
     2.  Close the window.
     3.  If you opened the notebook from a prompt/shell, press `<Ctrl-C>` twice to return to the prompt.
@@ -82,7 +83,7 @@ Librosa is a Python library for audio and music analysis.
 
     then you are in good shape.
 
-More information:
+More information on Librosa:
 -   [Documentation](http://librosa.github.io/librosa/)
 -   [GitHub](https://github.com/librosa/librosa)
 -   [Tutorials](https://github.com/librosa/tutorial)

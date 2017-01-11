@@ -46,14 +46,19 @@ Install Python 2 and relevant libraries. Your system may already have Python 2.
 
 If you’re totally new, the simplest solution is to download and install [Anaconda for Python 2 (2.7)](https://www.continuum.io/downloads), not Python 3. If you can do the following without errors, then you’re set:
 
-- Run the IPython shell. 
+1.  Run the IPython shell. 
     -   For Mac, at the Terminal: `ipython`. 
     -   For Windows, open the application "IPython".
     Type `exit` to exit.
-- Run the IPython/Jupyter notebook. 
+2.  In the IPython shell, run `import scipy, sklearn, pandas`. If that runs without error, congratulations.
+3.  Run the IPython/Jupyter notebook. 
     -   For Mac, at the Terminal: `jupyter notebook`.
     -   For Windows, open the application "Jupyter Notebook". Alternatively for Windows: open the application "Anaconda Prompt" and type in `jupyter notebook`.
-- In the IPython shell, run `import scipy, sklearn, pandas`. If that runs without error, congratulations, you are set.
+    
+    To close the IPython notebook,
+    1.  Save the notebook. (Either use keyboard shortcut `s`, or "File | Save" in the menu.)
+    2.  Close the window.
+    3.  If you opened the notebook from a prompt/shell, press `<Ctrl-C>` twice to return to the prompt.
 
 Immediately after installing, if something doesn’t work, try closing the terminal or restarting the OS. Sometimes that can reset the necessary configurations.
 

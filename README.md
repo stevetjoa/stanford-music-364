@@ -25,9 +25,9 @@ Date: 2017 January 27, 12:30-2:20 pm
     -   zero-crossing rate
     -   spectral moments (centroid, etc.)
 4.  Feature Analysis with Pandas
-    -   reading a DataFrame
-    -   feature correlation
-    -   visualization
+    -   [basics, reading data](pandas_basics.ipynb)
+    -   [analysis and visualization](pandas_analysis.ipynb), feature correlation
+    -   [merge and join datasets](pandas_join.ipynb)
 5.  Genre Classification
     -   brief literature review of existing approaches
     -   K-NN using scikit-learn

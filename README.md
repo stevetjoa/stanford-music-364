@@ -36,6 +36,10 @@ Date: 2017 January 27, 12:30-2:20 pm
     -   relevant features, e.g. chroma, MFCCs
     -   K-means clustering using scikit-learn
 
+## Homework
+
+1.  [Feature Sonification](feature_sonification.ipynb)
+
 ## Software Prerequisites
 
 Git is *not* required for this lecture and assignment. However, those who *do* know Git may find it convenient to clone this repository onto their computers.

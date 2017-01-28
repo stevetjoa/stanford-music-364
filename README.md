@@ -39,6 +39,7 @@ Date: 2017 January 27, 12:30-2:20 pm
 ## Homework
 
 1.  [Feature Sonification](feature_sonification.ipynb)
+1.  [Genre Classification](genre_classification.ipynb)
 
 ## Software Prerequisites
 
